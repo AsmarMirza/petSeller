@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>petKingdom</title>
+    <link
+    rel="icon"
+    href=
+"https://media.istockphoto.com/id/1179573533/vector/vector-group-of-pets-dog-cat-humming-bird-parrot-chameleon-butterfly-rabbit-isolated-on.jpg?s=612x612&w=0&k=20&c=SFDqjevwsQ00ZoZWFQRhscVxnrrkVDns0KjDH-hUynA="
+    type="image/x-icon"
+/>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+<body>
+    <section class="cats">
+      
+        <h1 class="ourCats">Our Dogs <i id="ourCats" class="fa-regular fa-heart"></i></h1>
+        <div class="catsButton">    
+                <button id="goCats" class="goCats"><a class="homeLink" href="./index.html">Go home page</a></button>
+        <button id="addCats" class="goCats"><a class="homeLink" href="./addCats.html">Add new cat </a></button>
+    </div>
+    
+    
+      <div class="cards">
+        
+      </div>
+    </section>
+
+    <script>
+
+fetch("http://localhost:3000/dogs")
+.then (res=>res.json())
+.then(data=>createDogs(data))
+
+const cards = document.querySelector(".cards")
+const card=document.querySelector(".card")
+
+function createDogs(data){
+data.forEach(element=> {
+    cards.innerHTML+= ` <div class="card" style="width: 18rem;">
+        <img src="${element.img}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">${element.name}</h4>
+          <h5 h5 class="card-text">${element.price} $</h5>
+          <div class="buttons">
+          <a id="update" href="#" class="btn btn-primary">Update</a>
+          <a href="#" id="catsLink" class="btn btn-primary">Delete</a>
+          </div>
+        </div>
+      </div>`
+    
+});
+}
+createDogs()
+    </script>
+</body>
+</html>

@@ -1,0 +1,445 @@
+.aboutHero{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    min-height: 500px;
+    background-image: url("https://images.wallpaperscraft.com/image/single/dog_sitting_foliage_118931_3840x2160.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutcontainer{
+    display: flex;
+    gap: 10px;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    height: 150vh;
+    color: white;
+    font-size: 20px;
+    animation-name: abouthero;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes abouthero{
+    0%{top:-300px}
+    100%{top:0px}
+}
+.aboutHeading{
+    font-size: 30px;
+}
+@media only screen and (max-width: 991px) {
+    .aboutHero{
+       background-position: right;
+    background-size: cover;
+    }
+  }
+  
+  @media only screen and (max-width: 591px) {
+    .aboutHero{
+        background-image: url("https://t4.ftcdn.net/jpg/06/32/03/09/360_F_632030974_RAsaqwiom8kfRNjHq9lnRfwCkfDz1lcG.jpg");
+       background-position:center;
+    }
+    .aboutcontainer{
+        font-size: 18px;
+    }
+    .aboutHeading{
+        font-size: 25px;
+    }
+  }
+
+//   about main
+.aboutMain{
+    max-width: 100%;
+    width: 100%;
+   min-height: 500px;
+}
+.mainContainerTop{
+    display: flex;
+    gap: 200px;
+    padding: 100px;
+    background-color: rgba(81, 110, 145, 0.7)
+}
+.leftbox{
+    max-width: 40%;
+   padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+  font-size: 18px;
+  animation-name: left;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  position: relative;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+@keyframes left{
+    0% { left: -200px;}
+    100% {  left:0px}
+    }  
+
+
+.rightbox{
+    position: relative;
+   
+    max-width: 400px;
+    animation-name: example;
+    animation-duration: 2s;
+   animation-delay: 1s;
+    animation-fill-mode: forwards;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+}
+@keyframes example{
+0% { right: -200px;}
+100% {  right:0px}
+}
+.aboutImgTop{
+ 
+    max-width: 100%;
+    border-radius: 7px;
+    min-height: 350px;
+   
+}
+// middle section
+.middleSection{
+    padding-top: 100px;
+    max-width: 100%;
+    width: 100%;
+    min-height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(126, 120, 120);
+   background-size: cover;
+   background-position: center;
+   color: white;
+   font-weight: bolder;
+}
+.middleContainer{
+    position: relative;
+    animation-name: aboutmiddle;
+    animation-duration: 2s;
+    animation-delay: 2s;
+     animation-fill-mode: forwards;
+     font-size: 25px;
+}
+@keyframes aboutmiddle{
+    0%{bottom:-200px}
+    100%{bottom:0px}
+}
+
+.mainContainerBottom{
+    gap: 200px;
+    padding: 100px; 
+    max-width: 100%;
+    
+}
+.mainEndFirst{
+    max-width: 100%;
+display: flex;
+gap: 200px;
+
+}
+.mainEndSecond{
+    max-width: 100%;
+    display: flex;
+    gap: 200px; 
+    margin-top: 100px;
+}
+.mainEndLeftBox{
+    position: relative;
+    max-width: 40%;
+    animation-name: endLeft;
+    animation-duration: 2s;
+   animation-delay: 2s;
+    animation-fill-mode: forwards;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+@keyframes endLeft{
+    0% { bottom: -200px;}
+    100% { bottom:0px}
+    }
+.aboutMainImgTop{
+    max-width: 100%;
+    min-height: 250px;
+}
+
+.mainEndRightBox{
+    max-width: 40%;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(81, 110, 145, 0.7);
+    gap: 20px;
+
+  animation-name: endRight;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  position: relative;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+@keyframes endRight{
+    0% { right: -200px;}
+    100% {  right:0px}
+    } 
+    .mainEndMiddleLeftBox{
+        position: relative;
+        padding: 0px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(255, 160, 122,0.7 );
+       
+        gap: 20px;
+        max-width: 40%;
+        animation-name: endMiddleLeft;
+        animation-duration: 1s;
+       animation-delay: 2s;
+        animation-fill-mode: forwards;
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    } 
+    @keyframes endMiddleLeft{
+        0%{right: -200px;}
+        100%{right:0px}
+    }
+    .aboutMainMiddleImg{
+        border-radius: 50%;
+        max-width: 100%;
+        min-height: 200px;
+    }
+    .mainEndMiddleRightBox{
+        max-width: 40%;
+        border-radius: 50%;
+      font-size: 18px;
+      animation-name: endMiddleRight;
+      animation-duration: 2s;
+      animation-delay: 2s;
+      position: relative;
+      box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+    @keyframes endMiddleRight{
+        0%{bottom:-200px}
+        100%{bottom:0px}
+    }
+    #heart{
+        color: red;
+    }
+
+    .mainEndThird{
+        max-width: 100%;
+    display: flex;
+    gap: 200px; 
+    margin-top: 100px;  
+    }
+    #star{
+        color: gold;
+    }
+
+    @media only screen and (max-width: 991px) {
+      
+      .mainContainerTop{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        
+      }
+      .leftbox{
+        max-width: 90%;
+        min-height: 400px;
+      }
+      .rightbox{
+       
+        max-width: 90%;
+        min-height: 400px;
+      }
+      .aboutImgTop{
+        max-width: 100%;
+        min-height: 400px;
+      }
+
+      .mainEndFirst{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .mainEndSecond{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .mainEndThird{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .mainEndLeftBox{
+        max-width: 90%;
+        min-height: 400px; 
+      }
+      .mainEndRightBox{
+        max-width: 90%;
+        min-height: 400px;
+        font-size: 20px; 
+      }
+      .mainEndMiddleLeftBox{
+        max-width: 90%;
+        min-height: 400px;
+        font-size: 20px; 
+      }
+      .mainEndMiddleRightBox{
+        max-width: 90%;
+        min-height: 400px;
+      }
+      .aboutMainMiddleImg{
+        min-height: 400px ;
+      }
+      .aboutMainImgTop{
+        min-height: 400px;
+      }
+      }
+      
+      @media only screen and (max-width: 655px) {
+        .leftbox{
+            max-width: 600px;
+            min-height: 400px;
+          }
+          .rightbox{
+            max-width: 400px;
+            height: 400px;
+          }
+          .aboutImgTop{
+            max-width: 100%;
+            height: 400px;
+          }
+
+
+          
+      .mainEndFirst{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .mainEndSecond{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .mainEndThird{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .mainEndLeftBox{
+        max-width: 400px;
+        min-height: 400px; 
+      }
+      .mainEndRightBox{
+        max-width: 400px;
+        min-height: 400px;
+        font-size: 18px; 
+      }
+      .mainEndMiddleLeftBox{
+       max-width: 400px;
+        min-height: 400px;
+        font-size: 18px; 
+      }
+      .mainEndMiddleRightBox{
+        max-width: 400px;
+        min-height: 400px;
+      }
+      .aboutMainMiddleImg{
+        height: 400px ;
+        max-width: 400px;
+      }
+      .aboutMainImgTop{
+        height: 400px;
+        max-width: 400px;
+      }
+
+      }
+
+      @media only screen and (max-width: 503px) {
+        
+        .mainContainerTop{
+            max-width: 600px;
+        }
+        .leftbox{
+            width: 300px;
+            min-height: 400px;
+          }
+          .rightbox{
+            width: 300px;
+            min-height: 400px;
+          }
+          .aboutImgTop{
+            max-width: 100%;
+            height: 400px;
+          }
+
+
+          
+      .mainEndFirst{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .mainEndSecond{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .mainEndThird{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .mainEndLeftBox{
+        max-width: 400px;
+        min-height: 600px; 
+        
+      }
+      .mainEndRightBox{
+        width: 300px;
+        height: 400px;
+        font-size: 18px; 
+        
+      }
+      .mainEndMiddleLeftBox{
+       width: 300px;
+        height: 400px;
+        font-size: 18px; 
+      }
+      .mainEndMiddleRightBox{
+        max-width: 300px;
+        height: 400px;
+      }
+      .aboutMainMiddleImg{
+        height: 400px ;
+        max-width: 300px;
+      }
+      .aboutMainImgTop{
+        height: 400px;
+        max-width: 300px;
+      }
+
+      }

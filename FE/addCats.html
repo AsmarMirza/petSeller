@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>petKingdom</title>
+    <link
+    rel="icon"
+    href=
+"https://media.istockphoto.com/id/1179573533/vector/vector-group-of-pets-dog-cat-humming-bird-parrot-chameleon-butterfly-rabbit-isolated-on.jpg?s=612x612&w=0&k=20&c=SFDqjevwsQ00ZoZWFQRhscVxnrrkVDns0KjDH-hUynA="
+    type="image/x-icon"
+/>
+    <style>
+        body {
+          display: flex;
+          justify-content: center;
+          background-color: rgb(198, 204, 204);
+        }
+        form {
+          margin-top: 40px;
+          padding: 20px;
+          border: 1px solid rgb(178, 173, 173);
+          width: 300px;
+          height: 300px;
+          display: flex;
+          gap: 10px;
+          flex-direction: column;
+        background-image: url("https://i.pinimg.com/originals/91/8f/1b/918f1b2c568be3d77a7c29d682be874c.gif");
+        background-position: center;
+        background-size: cover;
+          box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+          border-radius: 7px;
+        }
+        .inpLink{
+            color: black;
+            text-decoration: none;
+            background-color: rgb(103, 170, 176);
+            text-align: center;
+        }
+      </style>
+</head>
+<body>
+    <form action="">
+        <input id="userimg" type="text"  placeholder="img.."/>
+        <input id="username" type="text"  placeholder="name.."/>
+        <input id="userjob" type="text" placeholder="price.." />
+        <a id="addBtn" class="inpLink" href="./cats.html">Add New Cat</a>
+      </form>
+
+
+      <script>
+
+const catimg = document.getElementById("userimg");
+      const catname = document.getElementById("username");
+      const catprice = document.getElementById("userjob");
+      const addBtn = document.getElementById("addBtn");
+
+     addBtn.addEventListener("click",function(){
+
+
+    if (catimg.value!==false && catname.value!==false && catprice.value!==false ) {
+        fetch("http://localhost:3000/cats",{
+            headers: {
+              Accept: "application/json",
+              "Content-Type": "application/json",
+            },
+            method: "post",
+            body: JSON.stringify({
+              catimg: userimg.value,
+              catname: username.value,
+              catprice: userjob.value,
+            }),
+        })
+    .then(res=>res.json())
+    .then(data => catCreate(data))
+    }
+     })
+      
+
+   
+    
+      </script>
+</body>
+</html>

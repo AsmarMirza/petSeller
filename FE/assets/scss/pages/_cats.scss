@@ -1,0 +1,68 @@
+.cats{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cards{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.card{
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+border-radius: 7px;
+
+justify-content: center;
+align-items: center;
+
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+#catsLink{
+    width: 100px;
+    padding: 7px;
+    text-align: center;
+}
+#update{
+    padding: 10px 25px;
+ 
+}
+.ourCats{
+    
+    font-size: 50px;
+    font-weight: bolder;
+}
+#ourCats{
+    color: red;
+}
+
+.goCats{
+    border: 1px solid rgb(143, 47, 47);
+    background-color: rgb(143, 47, 47);
+    padding: 7px;
+    border-radius: 7px;
+    min-height: 40px;
+
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.catsButton{
+    display: flex;
+    gap: 20px;
+
+
+}
+.homeLink{
+    color: white;
+    text-decoration: none;
+}

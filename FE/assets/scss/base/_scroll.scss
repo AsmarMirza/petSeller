@@ -1,0 +1,24 @@
+ 
+::-webkit-scrollbar {
+    width: 10px;
+   
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: rgb(175, 160, 160); 
+  }
+   
+  
+  ::-webkit-scrollbar-thumb {
+   background-image: url("https://i.stack.imgur.com/J5xAl.gif");
+ border-radius: 10px;
+   background-size: cover;
+   background-repeat: no-repeat;
+  
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

@@ -1,0 +1,290 @@
+{
+  "cats": [
+    {
+      "img": "https://cf.ltkcdn.net/www/images/orig/350825-1600x1066-Blue-eyed-1392570836.jpg",
+      "name": "Persian",
+      "price": 150,
+      "id": "1"
+    },
+    {
+      "img": "https://assets.elanco.com/8e0bf1c2-1ae4-001f-9257-f2be3c683fb1/fca42f04-2474-4302-a238-990c8aebfe8c/Siamese_cat_1110x740.jpg?w=3840&q=75&auto=format",
+      "name": "Siamese",
+      "price": 85,
+      "id": "2"
+    },
+    {
+      "img": "https://conservationcubclub.com/wp-content/uploads/2023/12/Maine-Coon-Cat-Hero.jpeg",
+      "name": "Maine Coon",
+      "price": 79,
+      "id": "3"
+    },
+    {
+      "img": "https://www.dailypaws.com/thmb/b52oCPUzJahtxzgvNkfvhKk1cOM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/scottish-fold-vertical-near-plant-231665893-bbc04d50e8b149a9b1fa9bfa6b8620d1.jpg",
+      "name": "Scottish Fold",
+      "price": 250,
+      "id": "4"
+    },
+    {
+      "img": "https://www.thebengalcats.com/cdn/shop/products/WhatsAppImage2020-11-18at2.34.14AM_4.jpg?v=1684226977",
+      "name": "Bengal",
+      "price": 193,
+      "id": "5"
+    },
+    {
+      "img": "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2023/resources/Ragdoll.jpg",
+      "name": "Ragdoll",
+      "price": 189.9,
+      "id": "6"
+    },
+    {
+      "img": "https://www.petplan.co.uk/images/breed-info/sphynx/sphynx-grooming-and-coat-care.jpg",
+      "name": "Sphynx",
+      "price": 183,
+      "id": "7"
+    },
+    {
+      "img": "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2020/10-26/British+Shorthairs+_+Personality+Shedding+and+Care+_+ASPCA+Pet+Health+Insurance+_+gray+shorthair+resting+on+a+brown+leather+couch+-min.jpg",
+      "name": "British Shorthair",
+      "price": 145,
+      "id": "8"
+    },
+    {
+      "img": "https://www.dailypaws.com/thmb/595g0xRVhpc3FdG7U7h3OGlm2Ls=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/russian-blue-cat-lounging-653846760-2000-6a72f95cede242b09f15cfe1917730ad.jpg",
+      "name": "Russian Blue",
+      "price": 130,
+      "id": "9"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "name": "Tabby",
+      "price": 200,
+      "id": "10"
+    }
+  ],
+  "dogs": [
+    {
+      "img": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/golden-retriever-dog-breed-info.jpeg",
+      "name": "Golden Retriever",
+      "price": 280,
+      "id": "1"
+    },
+    {
+      "img": "https://www.thesprucepets.com/thmb/4gz3D42PNWta_W7xY5-aaas2bl0=/1500x0/filters:no_upscale():strip_icc()/breed_profile_germansheperd_1118000_profile_2608-d7a78e7c1cf049879bec1ec19113ee42.jpg",
+      "name": "German Shepherd",
+      "price": 186,
+      "id": "2"
+    },
+    {
+      "img": "https://images.saymedia-content.com/.image/t_share/MTk2MTIwNDk0MzY4MzY4MTMz/the-10-most-popular-poodle-mixed-breed-dogs.png",
+      "name": "Poodle",
+      "price": 157,
+      "id": "3"
+    },
+    {
+      "img": "https://www.pdsa.org.uk/media/8323/french-bulldog-gallery-3-min.jpg?anchor=center&mode=crop&quality=100&height=500&bgcolor=fff&rnd=132210693500000000",
+      "name": "French Bulldog",
+      "price": 197,
+      "id": "4"
+    },
+    {
+      "img": "https://media-be.chewy.com/wp-content/uploads/2021/04/24140049/GettyImages-1411469044-923x615.jpg",
+      "name": "Beagle",
+      "price": 257.5,
+      "id": "5"
+      
+    },
+    {
+      "img": "https://cdn.sanity.io/images/4ij0poqn/production/4c5f33562dadde7dc8aa9b8678e08560a11def29-1200x700.jpg",
+      "name": "Siberian Husky",
+      "price": 350,
+      "id": "6"
+      
+    },
+    {
+      "img": "https://dogtime.com/wp-content/uploads/sites/12/2011/01/GettyImages-700141990-e1688418771301.jpg",
+      "name": "Dachshund",
+      "price": 229.6,
+      "id": "7"
+      
+    }
+
+  ],
+  "birds": [
+    {
+      "img": "https://media-be.chewy.com/wp-content/uploads/cockatiel-1213758_1280.jpg",
+      "name": "Cockatiel",
+      "price": 35,
+      "id": "1"
+    },
+    {
+      "img": "https://th-thumbnailer.cdn-si-edu.com/6YB-yXBFOs1Esl5lw6A5KdxrrYM=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/b2/13/b213c952-f57e-4ab2-af08-e4b7e8c3b336/2392033803_ec934ddf87_b.jpg",
+      "name": "Lovebird",
+      "price": 56,
+      "id": "2"
+    },
+    {
+      "img": "https://image.petmd.com/files/styles/863x625/public/2023-02/parakeets.jpg",
+      "name": "Parakeet",
+      "price": 30,
+      "id": "3"
+    },
+    {
+      "img": "https://www.serenityusa.com/app/uploads/2023/06/owl-finch-standing-alone.jpg",
+      "name": "Finch",
+      "price": 56,
+      "id": "4"
+    },
+    {
+      "img": "https://images.squarespace-cdn.com/content/v1/6188b0ecfd31c1533aeb2496/1636531195273-RWPKW3DL2SC3DT4E8S8I/unsplash-image-zOKrNguZwKo.jpg",
+      "name": "Budgerigar",
+      "price": 39.9,
+      "id": "5"
+    },
+    {
+      "img": "https://www.thesprucepets.com/thmb/iMtikD4KQeIl73kPe134Hu2TOH4=/4933x0/filters:no_upscale():strip_icc()/blue-budgie-511936470-dff4c0952d4a45ec80f9ac7f406cc71f.jpg",
+      "name": "Parrot",
+      "price": 38.9,
+      "id": "6"
+    },
+    {
+      "img": "https://media-be.chewy.com/wp-content/uploads/shutterstock_775421128.jpg",
+      "name": "Canary",
+      "price": 37,
+      "id": "7"
+    },
+    {
+      "img": "https://www.thehappychickencoop.com/wp-content/uploads/2022/07/cockatoo-pet-bird.jpg",
+      "name": "Cockatoo",
+      "price": 53,
+      "id": "8"
+    },
+    {
+      "img": "https://petbirdcenter.com/wp-content/uploads/2021/04/African-grey-parrot-facts-799x552.jpg",
+      "name": "African Grey Parrot",
+      "price": 39,
+      "id": "10"
+    }
+
+  ],
+  "fish": [
+    {
+      "img": "https://cafishvet.com/wp-content/uploads/2020/10/gold-fish-1.jpg",
+      "name": "Goldfish",
+      "price": 57,
+      "id": "1"
+    },
+    {
+      "img": "https://thefishroom.co.nz/cdn/shop/articles/Betta_1600x.jpg?v=1635272428",
+      "name": "Betta",
+      "price": 29,
+      "id": "2"
+    },
+    {
+      "img": "https://www.aquariumcoop.com/cdn/shop/articles/care-guide-for-guppies-the-most-popular-and-colorful-livebearer-421967.jpg?v=1659758860",
+      "name": "Guppy",
+      "price": 65,
+      "id": "3"
+    },
+    {
+      "img": "https://www.petbarn.com.au/petspot/app/uploads/2011/09/tetra-fish-800x533px.png",
+      "name": "Neon Tetra",
+      "price": 63,
+      "id": "4"
+    },
+    {
+      "img": "https://thumbor.bigedition.com/discus-fish-in-an-aquarium/DnTlT9921I6sOus8w8axRDGaGPU=/358x0:1194x836/480x480/filters:format(webp):quality(80)/granite-web-prod/1d/19/1d1985122f54483cb659b8e5070c18b0.jpeg",
+      "name": "Discus",
+      "price": 59,
+      "id": "5"
+    },
+    {
+      "img": "https://animaltalk.co.za/wp-content/uploads/2021/02/550_magnificent_mollies.jpg",
+      "name": "Mollies",
+      "price": 26,
+      "id": "6"
+    },
+    {
+      "img": "https://aquadecorbackgrounds.com/wp-content/uploads/2021/03/mbuna-fish-aquaudecor.jpg",
+      "name": "Cichlids",
+      "price": 35,
+      "id": "7"
+    }
+  ],
+  "hamsters": [
+    {
+      "img": "https://www.petassure.com/petassure/file-streams/page/VxQxzAy5YnBfBMkc03MDuDbest%20types%20of%20hamsters%20for%20pets.jpg",
+      "name": "Dwarf",
+      "price": 33,
+      "id": "1"
+    },
+    {
+      "img": "https://www.thesprucepets.com/thmb/m3z4jYMOszE2uAfAm3jAkrunj9E=/3456x0/filters:no_upscale():strip_icc()/GettyImages-151547675-58cecf015f9b581d72491af1.jpg",
+      "name": "Chinese",
+      "price": 29,
+      "id": "2"
+    },
+    {
+      "img": "https://www.thesprucepets.com/thmb/D_loHECyIf0KkRVnFqevHkLCLGg=/1600x0/filters:no_upscale():strip_icc()/4717897342_c9b936c3d4_o-56a2bcef3df78cf77279615d.jpg",
+      "name": "Russian",
+      "price": 45,
+      "id": "3"
+    },
+    {
+      "img": "https://www.vetsurgeon.org/cfs-filesystemfile/__key/communityserver-blogs-components-weblogfiles/00-00-00-00-05/hamster.png?_=637913961600069749",
+      "name": "Syrian",
+      "price": 27.5,
+      "id": "4"
+    },
+    {
+      "img": "https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F6d322d4e-3c9c-11ec-a9ce-48a11f44f00d.jpg?crop=5472%2C3078%2C0%2C285",
+      "name": "European",
+      "price": 25,
+      "id": "5"
+    }
+   
+  ],
+  "rabbits":[
+    {
+      "img": "https://qph.cf2.quoracdn.net/main-qimg-7a893fd9d25e2e302a266fafa2b36779",
+      "name": "Lop-Eared ",
+      "price": 37.8,
+      "id": "1"
+    },
+    {
+      "img": "https://image.petmd.com/files/styles/863x625/public/2023-08/netherland.dwarf_.jpg",
+      "name": "Dwarf",
+      "price": 29.6,
+      "id": "2"
+    },
+    {
+      "img": "https://abclive1.s3.amazonaws.com/ec5f8cdf-6b7b-4e5a-aec7-9f4d9094d1ef/widgetgraphic/Popular%20Rabbit%20Breeds%20-%20Individual%20Page%20Banners%20(4).jpg",
+      "name": "Rex",
+      "price": 44,
+      "id": "3"
+    },
+    {
+      "img": "https://cubcreeksciencecamp.com/wp-content/uploads/2019/12/EnglishLopEarRabbit.jpg",
+      "name": "Flemish Giant",
+      "price": 67,
+      "id": "4"
+    },
+    {
+      "img": "https://animalcorner.org/wp-content/uploads/2020/10/Dutch-Rabbit-1.jpg",
+      "name": "Dutch",
+      "price": 33.9,
+      "id": "5"
+    },
+    {
+      "img": "https://image.petmd.com/files/styles/863x625/public/2023-09/angora.rabbit.jpg",
+      "name": "Angora",
+      "price": 58,
+      "id": "6"
+    },
+    {
+      "img": "https://cdn.hswstatic.com/gif/lionhead-rabbit.jpg",
+      "name": "Lionhead",
+      "price": 49.9,
+      "id": "7"
+    }
+  ]
+}

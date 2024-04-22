@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>petKingdom</title>
+    <link
+    rel="icon"
+    href=
+"https://media.istockphoto.com/id/1179573533/vector/vector-group-of-pets-dog-cat-humming-bird-parrot-chameleon-butterfly-rabbit-isolated-on.jpg?s=612x612&w=0&k=20&c=SFDqjevwsQ00ZoZWFQRhscVxnrrkVDns0KjDH-hUynA="
+    type="image/x-icon"
+/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+         <!-- header section -->
+         <header>
+            <nav class="navbar"> 
+                <img class="petLogo" src="./assets/imgs/istockphoto-1186734274-612x612-removebg-preview.png" alt="petsLogo">
+                <ul class="navUl">
+                    <li class="navLi"> <a class="nav_a"  href="./index.html">Home</a></li>
+                    <li class="navLi"> <a class="nav_a" href="./about.html">About</a></li>
+                    <li class="navLi"> <a class="nav_a" href="./contact.html">Contact</a></li>
+                    <li><i id="menu" class="fa-solid fa-bars"></i></li>
+                    <li><i id="moon" class="fa-solid fa-sun"></i>
+                        <i id="moon1" class="fa-solid fa-moon"></i></li>
+                </ul>
+            </nav>
+        </header> 
+        <!-- contact hero -->
+        <section class="contactHero">
+            <div class="contactcontainer">
+                <h1 class="aboutHeading">Contact Us</h1>
+                 <div class="contactPhone"><i id="contactPhone" class="fa-solid fa-phone"></i><p> +1(123)-456-7890</p></div>
+            </div>
+        </section>
+
+        <!-- middle section -->
+        <section class="contactMiddleSection">
+            <div class="contact-form">
+                <span class="heading">Write Something Us <i id="contactHeart" class="fa-regular fa-heart"></i></span>
+                <form>
+                  <label for="name">Full Name:</label>
+                  <input type="text" required="">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required="">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" required=""></textarea>
+                  <button type="submit">Send message</button>
+                </form>
+              </div>
+              
+
+
+            <div class="contactRight">
+                <div class="contactAddress">
+                    <i id="contactIcon" class="fa-solid fa-house-chimney"></i>
+                    <p>Baku State University,23 A. Zahid Khalilov Street,Baku 1148</p>
+                </div>
+
+                <div class="contactAddress">
+                    <i id="contactIcon" class="fa-solid fa-phone"></i>
+                    <p>+1(123)-456-7890</p>
+                </div>
+
+                <div class="contactAddress">
+                    <i id="contactIcon" class="fa-solid fa-envelope"></i>
+                    <p>petkingdom@gmail.com</p>
+                </div>
+            </div>
+        </section>
+        <!-- map section -->
+        <section class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.5474450382508!2d49.80889017443556!3d40.374557958207525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dea2b26aff9%3A0x8bf044493464664c!2zQmFrxLEgRMO2dmzJmXQgVW5pdmVyc2l0ZXRp!5e0!3m2!1str!2saz!4v1713682099555!5m2!1str!2saz" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+
+        <!-- Footer -->
+
+<footer>
+    <div class="footerCommon">
+    <div class="footerLeft">
+        <h6 class="footerContactHeader">CONTACT</h6>
+        <p>Baku State University,23 A. Zahid Khalilov Street,Baku 1148</p>
+        <p class="phone">+1(123)-456-7890</p>
+        <p class="phone">+1(256)-533-1265</p>
+        <p class="email">petkingdom@gmail.com</p>
+    </div>
+        <div class="footer">
+            <div class="socialAndText">
+                <div class="text"> 
+                    <h5 class="footerSocialHeader">Join Our Community</h5>
+                    <p>Whether you're a seasoned pet owner or embarking on your first pet adoption journey, we invite you to join our community of pet lovers. Together, we can make a difference in the lives of animals and ensure that every pet finds a loving home.</p>
+                    <p>Browse our listings, connect with responsible breeders, and find your perfect pet today at  <a href="./index.html"> Pet Kingdom.</a> <i id="footerPet" class="fa-solid fa-paw"></i> </p>
+                </div>
+          <div class="social">
+              <div class="twt"><i class="fa-brands fa-instagram"></i></div>
+          <div class="twt">
+            <i class="fa-brands fa-twitter"></i></div>
+          <div class="twt"><i class="fa-brands fa-facebook-f"></i></div>
+          <div class="twt">
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+          <div class="twt"><i class="fa-brands fa-github"></i></div></div>
+          </div>
+        </div>
+        </div>
+        <div class="footerEnd">  <p class="footer__text">Copyright ©2024 All rights reserved | This website is made with <i id="footerheart" class="fa-solid fa-heart"></i> by Asmar Mirzayeva</p></div>
+      </footer>
+
+      <script src="./assets/js/darkmode.js"></script>
+</body>
+</html>

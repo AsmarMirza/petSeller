@@ -1,0 +1,170 @@
+// contact hero
+.contactPhone{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.contactHero{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   max-width: 100%;
+   min-height: 150vh;
+   background-image: url("https://static.vecteezy.com/system/resources/previews/023/631/727/large_2x/colorful-parrots-on-a-black-background-colorful-parrots-ai-generative-image-free-photo.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: whitesmoke;
+}
+.aboutHeading{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+#contactPhone{
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+#contactPhone:hover{
+    
+    color: black;
+    background-color: white;
+}
+.contactcontainer{
+    animation-name: contacthero;
+    animation-duration: 2s;
+    position: relative;
+    animation-fill-mode: forwards;
+
+}
+@keyframes contacthero{
+    0%{top:-300px}
+    100%{ top:0px } 
+}
+
+  .contact-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+  }
+  #message{
+    max-width: 328px;
+  }
+  .contact-form label {
+    color: black;
+  }
+  
+  .contact-form .heading {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 12px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+    max-width: 200px;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ff6384;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .contact-form button[type="submit"] {
+    background-color: #ff6384;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  .contactMiddleSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 30px;
+  }
+  #contactIcon{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 100%;
+   
+  }
+  #contactIcon:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+  }
+  .contactAddress{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    max-width: 500px;
+  }
+  .contactRight{
+    max-width: 50%;
+    animation-name: contact;
+    animation-duration: 2s;
+    position: relative;
+   
+  }
+  @keyframes contact{
+    0%{bottom:-300px}
+    100%{bottom:0px}
+  }
+  @media only screen and (max-width: 738px){
+.contactMiddleSection{
+    display: flex;
+    flex-direction: column;
+}
+.contactRight{
+    max-width: 100%;
+   margin: 40px;
+  }
+  .contact-form{
+    width: 60%;
+margin: 20px;
+  }
+  #message{
+    max-width: 500px;
+  }
+  }
+  @media only screen and (max-width: 738px){
+
+  }
+  #contactHeart{
+    color: red;
+  }
+

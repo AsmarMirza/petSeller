@@ -1,0 +1,102 @@
+.navbar {
+  max-width: 100%;
+  min-height: 70px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+}
+.petLogo {
+  margin-left: 200px;
+  width: 60px;
+  height: 50px;
+  cursor: pointer;
+}
+.navUl {
+  display: flex;
+  gap: 40px;
+  padding-right: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+  .nav_a{
+    color: white;
+    text-decoration: none;
+  }
+#menu{
+  color: white;
+}
+
+@media only screen and (max-width: 991px) {
+  .petLogo {
+    margin-left: 150px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .petLogo {
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 645px) {
+  .petLogo {
+    margin-left: 50px;
+  }
+  .navUl {
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .petLogo {
+    margin-left: 0px;
+    width: 50px;
+    height: 40px;
+  }
+  .navUl {
+    gap: 20px;
+    font-size: 18px;
+    margin-left: 30px;
+  }
+}
+@media only screen and (max-width: 385px){
+  .navUl {
+    gap: 10px;
+    font-size: 16px;
+    margin-left: 30px;
+  }
+}
+#menu{
+  cursor: pointer;
+}
+
+.menuUl{
+  display: none;
+  padding: 20px;
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  background-color: red;
+  
+}
+.menuLink{
+  color: white;
+  font-size: 20px;
+}
+#moon{
+  margin-top: 5px;
+  color: white;
+  cursor: pointer;
+}
+#moon1{
+  margin-top: 5px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
