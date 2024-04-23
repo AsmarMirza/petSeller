@@ -265,6 +265,7 @@ footer {
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .heroContainer {
@@ -504,6 +505,7 @@ body {
   background-image: url("https://images.wallpaperscraft.com/image/single/dog_sitting_foliage_118931_3840x2160.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .aboutcontainer {
@@ -976,6 +978,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: whitesmoke;
+  background-attachment: fixed;
 }
 
 .aboutHeading {

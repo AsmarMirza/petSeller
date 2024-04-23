@@ -41,10 +41,10 @@
 </head>
 <body>
     <form action="">
-        <input id="userimg" type="text"  placeholder="img.."/>
-        <input id="username" type="text"  placeholder="name.."/>
-        <input id="userjob" type="text" placeholder="price.." />
-        <a id="addBtn" class="inpLink" href="./cats.html">Add New Cat</a>
+        <input  id="userimg" type="text" required placeholder="img.."/>
+        <input  id="username" type="text" required  placeholder="name.."/>
+        <input  id="userjob" type="text" required placeholder="price.." />
+        <button id="btn"><a id="addBtn" class="inpLink" href="./cats.html">Add New Cat</a></button>
       </form>
 
 
@@ -54,10 +54,13 @@ const catimg = document.getElementById("userimg");
       const catname = document.getElementById("username");
       const catprice = document.getElementById("userjob");
       const addBtn = document.getElementById("addBtn");
+      const btn=document.getElementById("btn")
 
      addBtn.addEventListener("click",function(){
 
-
+      btn.addEventListener("click",function () {
+        document.location="cats.html"
+      })
     if (catimg.value!==false && catname.value!==false && catprice.value!==false ) {
         fetch("http://localhost:3000/cats",{
             headers: {

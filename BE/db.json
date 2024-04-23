@@ -59,6 +59,60 @@
       "name": "Tabby",
       "price": 200,
       "id": "10"
+    },
+    {
+      "id": "8943",
+      "catimg": "",
+      "catname": "",
+      "catprice": ""
+    },
+    {
+      "id": "4099",
+      "catimg": "",
+      "catname": "",
+      "catprice": ""
+    },
+    {
+      "id": "26ae",
+      "catimg": "",
+      "catname": "",
+      "catprice": ""
+    },
+    {
+      "id": "caec",
+      "catimg": "",
+      "catname": "",
+      "catprice": ""
+    },
+    {
+      "id": "70b4",
+      "catimg": "",
+      "catname": "",
+      "catprice": ""
+    },
+    {
+      "id": "76e9",
+      "catimg": "",
+      "catname": "",
+      "catprice": ""
+    },
+    {
+      "id": "d880",
+      "catimg": "",
+      "catname": "",
+      "catprice": ""
+    },
+    {
+      "id": "c378",
+      "catimg": "",
+      "catname": "",
+      "catprice": ""
+    },
+    {
+      "id": "b7fd",
+      "catimg": "",
+      "catname": "",
+      "catprice": ""
     }
   ],
   "dogs": [
@@ -91,23 +145,19 @@
       "name": "Beagle",
       "price": 257.5,
       "id": "5"
-      
     },
     {
       "img": "https://cdn.sanity.io/images/4ij0poqn/production/4c5f33562dadde7dc8aa9b8678e08560a11def29-1200x700.jpg",
       "name": "Siberian Husky",
       "price": 350,
       "id": "6"
-      
     },
     {
       "img": "https://dogtime.com/wp-content/uploads/sites/12/2011/01/GettyImages-700141990-e1688418771301.jpg",
       "name": "Dachshund",
       "price": 229.6,
       "id": "7"
-      
     }
-
   ],
   "birds": [
     {
@@ -164,7 +214,6 @@
       "price": 39,
       "id": "10"
     }
-
   ],
   "fish": [
     {
@@ -241,9 +290,8 @@
       "price": 25,
       "id": "5"
     }
-   
   ],
-  "rabbits":[
+  "rabbits": [
     {
       "img": "https://qph.cf2.quoracdn.net/main-qimg-7a893fd9d25e2e302a266fafa2b36779",
       "name": "Lop-Eared ",
