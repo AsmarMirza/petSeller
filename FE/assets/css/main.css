@@ -218,11 +218,24 @@ footer {
     margin-left: 30px;
   }
 }
-@media only screen and (max-width: 385px) {
+@media only screen and (max-width: 395px) {
   .navUl {
     gap: 10px;
     font-size: 16px;
     margin-left: 30px;
+  }
+  .mode {
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 345px) {
+  .navUl {
+    gap: 10px;
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  .mode {
+    margin-right: 100px;
   }
 }
 #menu {
@@ -243,17 +256,9 @@ footer {
   font-size: 20px;
 }
 
-#moon {
-  margin-top: 5px;
-  color: white;
-  cursor: pointer;
-}
-
-#moon1 {
-  margin-top: 5px;
-  color: white;
-  cursor: pointer;
-  display: none;
+.mode {
+  border: none;
+  margin-right: 20px;
 }
 
 .heroSection {
